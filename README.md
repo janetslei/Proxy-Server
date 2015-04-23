@@ -2,6 +2,6 @@
 
 Compile: gcc s.c -lpthread
 
-Run (shell): ./a.out
+Run: ./a.out
 
-Run (web browser): 129.120.151.XX:1234/www.website.com
+Open web browser and type in the address bar: 129.120.151.XX:1234/www.website.com
