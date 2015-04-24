@@ -11,4 +11,4 @@ Compile: gcc s.c -lpthread
 
 Run: ./a.out
 
-Connect to the proxy from a web browser using 'http://<server address>:<port>/www.website.com' with port = 1234
+Connect to the proxy from a web browser using '<server address>:<port>/<webaddress>' with port = 1357
