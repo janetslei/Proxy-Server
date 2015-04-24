@@ -1,6 +1,6 @@
 Proxy Server
 
-Github URL: https://github.com/janetslei/Proxy-Server.git
+Github URL: https://github.com/janetslei/Proxy-Server
 
 Group 16
 Janet SLeiman
