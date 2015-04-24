@@ -234,7 +234,7 @@ void *client_handler(void *sock_desc) {
 	}
    
 	printf ("Connection closed\n");
-    close(sock);
+    	close(sock);
 	free(sock_desc);
 	threadCount++;
 }
