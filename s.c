@@ -193,12 +193,12 @@ void *client_handler(void *sock_desc) {
 			
 			//check if website is blacklisted
 			char block_response[] = "HTTP/1.0 200 OK\r\n"
-									"Content-Type: text/html; charset=UTF-8\r\n\r\n"
-									"<!DOCTYPE html><html><head><title>NO! NO! NO! NO!</title>"
-									"<style>body { background-color: #111 }"
-									"h1 { font-size:4cm; text-align: center; color: black;"
-									" text-shadow: 0 0 2mm red}</style></head>"
-									"<body><h1>BLOCKED..FOR A MYSTERIOUS REASON!!</h1></body></html>\r\n";
+						"Content-Type: text/html; charset=UTF-8\r\n\r\n"
+						"<!DOCTYPE html><html><head><title>NO! NO! NO! NO!</title>"
+						"<style>body { background-color: #111 }"
+						"h1 { font-size:4cm; text-align: center; color: black;"
+						" text-shadow: 0 0 2mm red}</style></head>"
+						"<body><h1>BLOCKED..FOR A MYSTERIOUS REASON!!</h1></body></html>\r\n";
 			
 			//send block response to website
 			if ( (strcmp(host, "facebook.com") == 0) || (strcmp(host, "youtube.com") == 0)  || 
